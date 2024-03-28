@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pagina{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+header {
+    background: red;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: aqua;
+    border-bottom: 3px solid black;
+}
+
+nav{
+    background: greenyellow;
+    height:  50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.orden{clear: both;}
+
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    background: yellow;
+    min-height: 500px;
+    padding: 40px;
+}
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    background: olive;
+    min-height: 560px;
+    padding: 10px;
+}
+
+.orden{clear: both;}
+
+footer{
+    background: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.aviso-cookies{
+    display: none;
+    background: #fff;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    padding-top: 60px;
+    box-shadow: 0px 2px 20px 10px rgba(222,222, 222, .25);
+    text-align: center;
+
+}
+
+.aviso-cookies.activo{
+    display: block;
+}
+
+.aviso-cookies .galleta{
+    max-width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+       
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo{
+    margin-bottom: 15px;
+
+}
+
+.aviso-cookies .boton{
+    width: 100%;
+    background: #595959;
+    border: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.aviso-cookies .boton:hover{
+    background: black;
+}
+
+.aviso-cookies .enlace{
+    color: #4DBFFF;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.aviso-cookies .enlace:hover{
+    text-decoration: underline;
+}
+
+.fondo-Aviso-cookies{
+    display: block;
+    background: rgba(0, 0, 0, .20);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+
+}
+
+.fondo-Aviso-cookies.activo {
+    display: block;
+}
